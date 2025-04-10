@@ -1,31 +1,80 @@
-#vermelho
+
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*
 {
-    height: 200px;
+    font-family: "Viaoda Libre", serif;
 }
 
-#verde
+body
 {
-    height: 200px;
-}
-
-#azul
-{
-    height: 200px;
-}
-
-#laranja
-{
-    background-color: orangered;
-    height: 200px;
-}
-
-#roxo
-{
-    background-color: purple;
-    height: 200px;
+    background-color: black;
 }
 
 img
 {
-    width: 31%;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 21px rgb(76, 185, 76);
+    border: 2px solid black;
+    border-radius: 5px;
 }
+
+.galimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.formulario
+{
+    background-color: gray;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+input
+{
+    border: 3px solid black;
+    border-radius: 1px;
+    box-shadow: 0px 4px 3px 1px black;
+}
+
+textarea
+{
+    border: 3px solid black;
+    border-radius: 1px;
+    box-shadow: 0px 4px 3px 1px black;
+}
+
+#exampleFormControlInput1
+{
+    color: white;
+    background-color: rgb(61, 62, 76);
+}
+
+#exampleFormControlInput1::placeholder
+{
+    color: white;
+}
+
+#exampleFormControlTextarea1
+{
+    background-color: rgb(61, 62, 76);
+    color: white;
+}
+
+img:hover
+{
+    width: 350px;
+    height: 350px;
+}
+
+
+
