@@ -1,0 +1,31 @@
+#vermelho
+{
+    height: 200px;
+}
+
+#verde
+{
+    height: 200px;
+}
+
+#azul
+{
+    height: 200px;
+}
+
+#laranja
+{
+    background-color: orangered;
+    height: 200px;
+}
+
+#roxo
+{
+    background-color: purple;
+    height: 200px;
+}
+
+img
+{
+    width: 31%;
+}
