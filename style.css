@@ -70,10 +70,22 @@ textarea
     color: white;
 }
 
+#inputPassword5
+{
+    background-color: rgb(61, 62, 76);
+    color: white;
+}
+
 img:hover
 {
     width: 350px;
     height: 350px;
+}
+
+#botao:hover
+{
+    background-color: black;
+    color: white;
 }
 
 
